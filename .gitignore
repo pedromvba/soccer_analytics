@@ -1,2 +1,6 @@
 .env
 .soccer_analytics
+.vscode/
+.DS_Store
+.idea
+README.md
