@@ -1,0 +1,4 @@
+pandas==2.2.3
+streamlit==1.38.0
+statsbombpy==1.14.0
+mplsoccer==1.4.0
