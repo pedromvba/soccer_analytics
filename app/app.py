@@ -247,8 +247,10 @@ def main():
         # Events
         st.write('#### Eventos de Passes e Chutes da Partida por Jogador')
 
-        home_names = home_lineup['Jogador'].unique()
-        away_names = away_lineup['Jogador'].unique()
+        st.write(lineups[home_team]['player_name'].unique())
+
+        home_names = lineups[home_team]['player_name'].unique()
+        away_names = lineups[away_team]['player_name'].unique()
         players_names = list(home_names) + list(away_names)
         players = st.multiselect('Selecione os Jogadores', players_names)
 
